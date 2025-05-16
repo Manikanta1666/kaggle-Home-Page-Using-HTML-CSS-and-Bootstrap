@@ -1,0 +1,410 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+} 
+.form-control{
+    border-radius: 50px;
+    width: 180px;
+    height: 45px;
+}
+.matter{
+    padding-top: 120px;
+    margin-left: -24px;
+}
+.all{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;   
+}
+.all:hover{
+    color: black;
+}
+
+.head{
+    font-weight: bold;
+}
+.img{
+    margin-right: 10px;
+}
+.also{
+    border-collapse: collapse;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+.also:hover{
+    color: black;
+    background-color: grey;
+}
+.para{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: grey;
+}
+.data {
+    display: flex;
+    gap: 90px;
+}
+.data dt{
+    font-size: 30px;
+    
+}
+.project h3{
+    font-weight: bold;
+     font-size: 40px;
+}
+.project p{
+     color: grey;
+     font-size: 17px;
+     padding-top: 20px;
+     padding-bottom: 25px;
+}
+.text{
+    padding-top: 200px;
+    margin-left: -24px;
+}
+.box{
+    border: 10px solid whitesmoke;
+    border-radius: 8px;
+    height: 60%;
+    width: 120%;
+    position: relative;
+    z-index: 5;
+    margin-top: 25px;
+    margin-left: 30px;
+    overflow:hidden;
+}
+.imgc{
+    position: absolute;
+    z-index: -1;
+}
+.dataset{
+    display: flex;
+    gap:20px;
+    padding-left: 45px;
+    margin-top: 10px;
+}
+.dataset h4{
+    font-weight: bold;
+}
+.parac{
+    padding-left: 48px;
+    color: grey;
+}
+.box2{
+    border: 1px solid black;
+    width: 450px;
+    height: 180px;
+    border-radius: 20px;
+    margin-left: 6px;
+}
+.inside{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;  
+}
+.inside img{
+    padding-bottom: 15px;
+    padding-right: 8px;
+}
+.inside p{
+    font-weight: bold;
+}
+.p{
+    color: grey;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.sect{
+    display: flex;
+    gap: 50px;
+    width: 91vw;
+    overflow-x:auto ;
+    white-space: nowrap;
+    margin-left: 45px;
+    
+}
+.learner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.learner dt{
+    font-size: 21px;
+}
+.kaggle{
+    background-color: #ffffff;
+    margin-left: -40px;
+}
+.kaggle h3{
+    padding-left: 85px;
+    font-weight: bold;
+    font-size: 26px;
+    padding-bottom: 25px;
+}
+.inside1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.inside1 p{
+    font-weight: bold;
+    padding-right: 20px;
+}
+.p{
+    padding-right: 30px;
+}
+.inside3{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.inside3 img{
+    padding-right: 10px;
+}
+.data2{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.data2 dt{
+    font-weight: bold;
+    font-size: 25px;
+}
+.core{
+    width: 50%;
+    margin-left: -90px;
+}
+.box3{
+    border: 10px solid whitesmoke;
+    border-radius: 8px;
+    height: 65%;
+    width: 120%;
+    position: relative;
+    z-index: 5;
+    margin-top: 25px;
+    margin-left: 30px;
+    overflow:hidden;
+}
+.core1{
+    margin-left: -90px;
+}
+.level{
+    background-color: #ffffff;
+}
+.competitions{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+.competitions h4{
+    font-weight: bold;
+}
+.inside4{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    gap: 40px;
+}
+.inside4 p{
+    font-weight: bold;
+}
+.inside4 img{
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.box4{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 170px;
+    width: 290px;
+
+}
+.inside5{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+h6{
+    color: black;
+    font-weight: bold;
+}
+.page{
+   padding-left: 20px;
+   font-size: 12px;
+   color: grey;
+}
+.inside5 img{
+    padding-bottom: 12px;
+}
+a{
+    text-decoration: none;
+}
+.sol{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: 206vh;
+    height: 200px;
+    overflow-x: scroll;
+    margin-left: 47px;
+    
+}
+.inside6{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.inside6 img{
+    padding-bottom: 10px;
+}
+.inside7{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.inside7 img{
+    border-radius: 10px;
+}
+.inside8{
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.core3{
+    width: 120%;
+    height: 250%;
+    border: 10px solid whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    z-index: 5;
+    margin-left: -100px;
+    overflow: hidden;
+}
+.build img{
+    margin-left: -250px;
+    position: absolute;
+    z-index: -1;
+} 
+.build{
+    margin-top: 50px;
+}
+.project{
+    margin-bottom: -270px;
+}
+.hello{
+    background-color:#ffffff;
+}
+.call{
+    background-color:#ffffff;
+}
+.bt1{
+    border: 1px solid #ffffff;
+    height: 40px;
+    width: 90px;
+    margin-right: 20px;
+    border-radius: 30px;
+    margin-top: 4px;
+    border-collapse: collapse;
+}
+.bt1:hover{
+     background-color: gray;
+}
+.bt2{
+    border-radius: 50px;
+    width: 120px;
+    height: 35px;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+.navbar{
+    background-color: #ffffff;
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: background-color 0.3s ease;
+}
+.navbar img{
+    margin-left: 33px;
+}
+.navbar a{
+    font-size: 14px;
+    color: gray;
+    /* text-decoration: line-through; */
+}
+.navbar a:hover{
+    color:gray ;
+
+}
+.box4{
+    transition: box-shadow 0.1s ease;
+}
+.box4:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.img1{
+    margin-top: -100px;
+    margin-left: 60px;
+}
+.matter h1{
+    font-size: 45px;
+    font-weight: 750;
+}
+.key {
+    display: flex;
+    flex-direction: column; /* default: places a-tags side by side */
+    gap: 20px;
+    flex-wrap: wrap;
+    vertical-align: middle; /* optional: allows wrapping on small screens */
+}
+.key a{
+    color: black;
+}
+.key img{
+    padding-right: 35px;
+}
+.coll h6{
+    color: gray;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+/* .coll{
+    margin-right: 8px;
+} */
+.features{
+    margin-left: -40px;
+}
