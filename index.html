@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="kaggle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
@@ -18,18 +19,18 @@
           width="100px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Competitions</a>
+            <a class="nav-link" aria-current="page" href="#competition">Competitions</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#">Datasets</a>
+            <a class="nav-link " aria-current="page" href="#datasetss">Datasets</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#">Models</a>
+            <a class="nav-link " aria-current="page" href="#modelss">Models</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " aria-current="page" href="#">Codes</a>
@@ -41,20 +42,28 @@
             <a class="nav-link " aria-current="page" href="#">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Cources</a>
+            <a class="nav-link" aria-current="page" href="#courcess">Cources</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Dropdown
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">User Rankings</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Documentation</a></li>
+              <li><a class="dropdown-item" href="#">progression</a></li>
+              <li><a class="dropdown-item" href="#">Host a Competion</a></li>
+              <li><a class="dropdown-item" href="#">Support/contact</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Teams</a></li>
+               <li><a class="dropdown-item" href="#">Terms</a></li>
+                <li><a class="dropdown-item" href="#">Policy</a></li>
             </ul>
           </li>
         </ul>
@@ -110,7 +119,8 @@
             <img src="https://www.kaggle.com/static/images/home/logged-out/developers-illo_light.svg" alt="">
           </div>
         </div>
-        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-1 order-sm-1 order-md-1 order-lg-1 order-xg-2">
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-1 order-sm-1 order-md-1 order-lg-1 order-xg-2">
           <div class="learner">
             <dl>
               <dt>Researchers</dt>
@@ -232,65 +242,68 @@
     </div>
   </section>
   <!-- datasets -->
-  <div class="hello">
-    <div class="dataset mt-5">
-      <img src="images/1.png" width="30px" height="30px">
-      <h4>Datasets</h4>
-    </div>
-    <p class="parac">478K high-quality public datasets. Everything from avocado prices to video game sales.</p>
-    <section class="sol">
-      <a href="">
-        <div class="box4">
-          <div class="inside5">
-            <h6>Bitcoin Historical <br> Data</h6>
-            <img
-              src="https://storage.googleapis.com/kaggle-datasets-images/1346/2425/573bbb9b260839fc8208792d1e0ba7e5/dataset-thumbnail.jpg"
-              alt="" width="50px">
-          </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+   <div class="hello">
+  <section id="datasetss">
+      <div class="dataset mt-5">
+        <img src="images/1.png" width="30px" height="30px">
+        <h4>Datasets</h4>
+      </div>
+      <p class="parac">478K high-quality public datasets. Everything from avocado prices to video game sales.</p>
+  </section>
+  <section class="sol">
+    <a href="">
+      <div class="box4">
+        <div class="inside5">
+          <h6>Bitcoin Historical <br> Data</h6>
+          <img
+            src="https://storage.googleapis.com/kaggle-datasets-images/1346/2425/573bbb9b260839fc8208792d1e0ba7e5/dataset-thumbnail.jpg"
+            alt="" width="50px">
         </div>
-      </a>
-      <a href="">
-        <div class="box4">
-          <div class="inside5">
-            <h6>Fruits-360 dataset</h6>
-            <img
-              src="https://storage.googleapis.com/kaggle-datasets-images/5857/8713/df2a86f4b6ecfff7996be179a4e8ebdf/dataset-thumbnail.jpg?t=2017-12-02-08-49-27"
-              alt="" width="50px">
-          </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+        <p class="page">1st Place Solution · 339 upvotes</p>
+        <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="box4">
+        <div class="inside5">
+          <h6>Fruits-360 dataset</h6>
+          <img
+            src="https://storage.googleapis.com/kaggle-datasets-images/5857/8713/df2a86f4b6ecfff7996be179a4e8ebdf/dataset-thumbnail.jpg?t=2017-12-02-08-49-27"
+            alt="" width="50px">
         </div>
-      </a>
-      <a href="">
-        <div class="box4">
-          <div class="inside5">
-            <h6>International football <br> results from 1872 to..</h6>
-            <img
-              src="https://storage.googleapis.com/kaggle-datasets-images/4305/6656/174b3eae6099dbc6ef1149ce22eb3e5f/dataset-thumbnail.jpg?t=2017-11-10-00-33-18"
-              alt="" width="50px">
-          </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+        <p class="page">1st Place Solution · 339 upvotes</p>
+        <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="box4">
+        <div class="inside5">
+          <h6>International football <br> results from 1872 to..</h6>
+          <img
+            src="https://storage.googleapis.com/kaggle-datasets-images/4305/6656/174b3eae6099dbc6ef1149ce22eb3e5f/dataset-thumbnail.jpg?t=2017-11-10-00-33-18"
+            alt="" width="50px">
         </div>
-      </a>
-      <a href="">
-        <div class="box4">
-          <div class="inside5">
-            <h6>
-              Formula 1 World <br>Championship (1950)..</h6>
-            <img
-              src="https://storage.googleapis.com/kaggle-datasets-images/468218/878459/e2b865299a720df627331f8d213eb8f9/dataset-thumbnail.jpg?t=2020-01-07-17-56-51"
-              alt="" width="50px">
+        <p class="page">1st Place Solution · 339 upvotes</p>
+        <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="box4">
+        <div class="inside5">
+          <h6>
+            Formula 1 World <br>Championship (1950)..</h6>
+          <img
+            src="https://storage.googleapis.com/kaggle-datasets-images/468218/878459/e2b865299a720df627331f8d213eb8f9/dataset-thumbnail.jpg?t=2020-01-07-17-56-51"
+            alt="" width="50px">
 
-          </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
         </div>
-      </a>
-    </section>
-    <!-- notebooks -->
+        <p class="page">1st Place Solution · 339 upvotes</p>
+        <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+      </div>
+    </a>
+  </section>
+  <!-- notebooks -->
+  <section id="notebookss">
     <div class="dataset mt-5">
       <img src="images/2.png" width="40px" height="30px">
       <h4>Notebooks</h4>
@@ -339,7 +352,9 @@
         </div>
       </a>
     </section>
-    <!-- models -->
+  </section>
+  <!-- models -->
+  <section id="modelss">
     <div class="dataset mt-5">
       <img src="images/3.png" width="40px" height="30px">
       <h4>Models</h4>
@@ -389,7 +404,8 @@
         </div>
       </a>
     </section>
-  </div>
+    </div>
+  </section>
   <!-- learn -->
   <section class="project mt-5">
     <div class="container">
@@ -469,154 +485,158 @@
     </div>
   </section>
   <!-- competitions -->
-  <div class="call">
-    <div class="dataset mt-5">
-      <img src="images/4.png" width="40px" height="35px">
-      <h4>Competitions</h4>
-    </div>
-    <p class="parac">Build your skills in our competitions, co-hosted by world-class research organizations & companies.
-    </p>
-    <section class="sol">
-      <a href="">
-        <div class="box4">
-          <div class="inside7">
-            <h6>ARC Prize 2025</h6>
-            <img src="https://www.kaggle.com/competitions/91496/images/thumbnail" alt="" width="50px">
+  <section id="competition">
+    <div class="call">
+      <div class="dataset mt-5">
+        <img src="images/4.png" width="40px" height="35px">
+        <h4>Competitions</h4>
+      </div>
+      <p class="parac">Build your skills in our competitions, co-hosted by world-class research organizations &
+        companies.
+      </p>
+      <section class="sol">
+        <a href="">
+          <div class="box4">
+            <div class="inside7">
+              <h6>ARC Prize 2025</h6>
+              <img src="https://www.kaggle.com/competitions/91496/images/thumbnail" alt="" width="50px">
+            </div>
+            <p class="page">1st Place Solution · 339 upvotes</p>
+            <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
           </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="box4">
-          <div class="inside7">
-            <h6>Stanford RNA 3D <br> Folding</h6>
-            <img src="https://www.kaggle.com/competitions/87793/images/thumbnail" alt="" width="50px">
+        </a>
+        <a href="">
+          <div class="box4">
+            <div class="inside7">
+              <h6>Stanford RNA 3D <br> Folding</h6>
+              <img src="https://www.kaggle.com/competitions/87793/images/thumbnail" alt="" width="50px">
+            </div>
+            <p class="page">1st Place Solution · 339 upvotes</p>
+            <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
           </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="box4">
-          <div class="inside7">
-            <h6>BYU - Locating <br> Bacterial Flagellar...</h6>
-            <img src="https://www.kaggle.com/competitions/91249/images/thumbnail" alt="" width="50px">
+        </a>
+        <a href="">
+          <div class="box4">
+            <div class="inside7">
+              <h6>BYU - Locating <br> Bacterial Flagellar...</h6>
+              <img src="https://www.kaggle.com/competitions/91249/images/thumbnail" alt="" width="50px">
+            </div>
+            <p class="page">1st Place Solution · 339 upvotes</p>
+            <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
           </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
-        </div>
-      </a>
-      <a href="">
-        <div class="box4">
-          <div class="inside7">
-            <h6>BirdCLEF+ 2025</h6>
-            <img src="https://www.kaggle.com/competitions/91844/images/thumbnail" alt="" width="50px">
+        </a>
+        <a href="">
+          <div class="box4">
+            <div class="inside7">
+              <h6>BirdCLEF+ 2025</h6>
+              <img src="https://www.kaggle.com/competitions/91844/images/thumbnail" alt="" width="50px">
+            </div>
+            <p class="page">1st Place Solution · 339 upvotes</p>
+            <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
           </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+        </a>
+      </section>
+  </section>
+  <!-- solutions -->
+  <div class="dataset mt-5">
+    <img src="images/5.png" width="40px" height="30px">
+    <h4>Solution write-ups</h4>
+  </div>
+  <p class="parac">1.4M public notebooks and access to a powerful notebook environment with no cost GPUs & TPUs.</p>
+  <section class="sol">
+    <a href="">
+      <div class="box4">
+        <div class="inside5">
+          <img src="images/6 (4).png" alt="" width="50px">
+          <h6>Quora Question Pairs</h6>
         </div>
-      </a>
-    </section>
-    <!-- solutions -->
-    <div class="dataset mt-5">
-      <img src="images/5.png" width="40px" height="30px">
-      <h4>Solution write-ups</h4>
-    </div>
-    <p class="parac">1.4M public notebooks and access to a powerful notebook environment with no cost GPUs & TPUs.</p>
-    <section class="sol">
-      <a href="">
-        <div class="box4">
-          <div class="inside5">
-            <img src="images/6 (4).png" alt="" width="50px">
-            <h6>Quora Question Pairs</h6>
-          </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+        <p class="page">1st Place Solution · 339 upvotes</p>
+        <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="box4">
+        <div class="inside5">
+          <img src="images/6 (1).png" alt="" width="50px">
+          <h6>Web Traffic Time <br>Series Forecasting</h6>
         </div>
-      </a>
-      <a href="">
-        <div class="box4">
-          <div class="inside5">
-            <img src="images/6 (1).png" alt="" width="50px">
-            <h6>Web Traffic Time <br>Series Forecasting</h6>
-          </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+        <p class="page">1st Place Solution · 339 upvotes</p>
+        <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="box4">
+        <div class="inside5">
+          <img src="images/6 (2).png" alt="" width="50px">
+          <h6>Porto Seguro’s Safe <br>Driver Prediction</h6>
         </div>
-      </a>
-      <a href="">
-        <div class="box4">
-          <div class="inside5">
-            <img src="images/6 (2).png" alt="" width="50px">
-            <h6>Porto Seguro’s Safe <br>Driver Prediction</h6>
-          </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+        <p class="page">1st Place Solution · 339 upvotes</p>
+        <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="box4">
+        <div class="inside5">
+          <img src="images/6 (3).png" alt="" width="50px">
+          <h6>
+            Mercari Price <br>Suggestion...</h6>
         </div>
-      </a>
-      <a href="">
-        <div class="box4">
-          <div class="inside5">
-            <img src="images/6 (3).png" alt="" width="50px">
-            <h6>
-              Mercari Price <br>Suggestion...</h6>
-          </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
-        </div>
-      </a>
+        <p class="page">1st Place Solution · 339 upvotes</p>
+        <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+      </div>
+    </a>
 
-    </section>
-    <!-- Cources -->
-    <div class="dataset mt-5">
-      <img src="images/6.png" width="40px" height="30px">
-      <h4>Cources</h4>
-    </div>
-    <p class="parac">Earn a signed certificate and learn new techniques in our no cost, hands-on courses.</p>
-    <section class="sol">
-      <a href="">
-        <div class="box4">
-          <div class="inside8">
-            <h6>Intro to <br>Programming</h6>
-            <img src="https://www.kaggle.com/static/images/education/km/intro-to-programming.svg" alt="" width="50px">
-          </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+  </section>
+  <!-- Cources -->
+  <section id="courcess"></section>
+  <div class="dataset mt-5">
+    <img src="images/6.png" width="40px" height="30px">
+    <h4>Cources</h4>
+  </div>
+  <p class="parac">Earn a signed certificate and learn new techniques in our no cost, hands-on courses.</p>
+  <section class="sol">
+    <a href="">
+      <div class="box4">
+        <div class="inside8">
+          <h6>Intro to <br>Programming</h6>
+          <img src="https://www.kaggle.com/static/images/education/km/intro-to-programming.svg" alt="" width="50px">
         </div>
-      </a>
-      <a href="">
-        <div class="box4">
-          <div class="inside8">
-            <h6>Intro to Python</h6>
-            <img src="https://www.kaggle.com/static/images/education/km/python.svg" alt="" width="50px">
-          </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+        <p class="page">1st Place Solution · 339 upvotes</p>
+        <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="box4">
+        <div class="inside8">
+          <h6>Intro to Python</h6>
+          <img src="https://www.kaggle.com/static/images/education/km/python.svg" alt="" width="50px">
         </div>
-      </a>
-      <a href="">
-        <div class="box4">
-          <div class="inside8">
-            <h6>Intro to <br>Machine Learning</h6>
-            <img src="https://www.kaggle.com/static/images/education/km/intro-to-machine-learning.svg" alt=""
-              width="50px">
-          </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+        <p class="page">1st Place Solution · 339 upvotes</p>
+        <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="box4">
+        <div class="inside8">
+          <h6>Intro to <br>Machine Learning</h6>
+          <img src="https://www.kaggle.com/static/images/education/km/intro-to-machine-learning.svg" alt=""
+            width="50px">
         </div>
-      </a>
-      <a href="">
-        <div class="box4">
-          <div class="inside8">
-            <h6>Intro to Pandas</h6>
-            <img src="https://www.kaggle.com/static/images/education/km/pandas.svg" alt="" width="50px">
-          </div>
-          <p class="page">1st Place Solution · 339 upvotes</p>
-          <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+        <p class="page">1st Place Solution · 339 upvotes</p>
+        <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+      </div>
+    </a>
+    <a href="">
+      <div class="box4">
+        <div class="inside8">
+          <h6>Intro to Pandas</h6>
+          <img src="https://www.kaggle.com/static/images/education/km/pandas.svg" alt="" width="50px">
         </div>
-      </a>
-    </section>
+        <p class="page">1st Place Solution · 339 upvotes</p>
+        <p class="page">Hi everyone ! First of all, thanks to <br> Kaggle and Quora for this tough and...</p>
+      </div>
+    </a>
+  </section>
   </div>
 
   <!-- Build -->
@@ -683,6 +703,106 @@
       </div>
     </div>
   </section>
+
+  <!-- kaggle -box2 -->
+  <!-- <div class="container">
+    <div class="text-section">
+      <h2>Who are Kagglers?</h2>
+      <p>
+        Kagglers come from all walks of life: students, seasoned professionals, and distinguished researchers. They use Kaggle to learn data science & ML, stay up-to-date on the latest techniques, and collaborate.
+      </p>
+    </div>
+    <div class="image-section">
+      <img src="https://www.kaggle.com/static/images/home/logged-out/community-faces-desktop@2x.png" alt="Kagglers" />
+    </div>
+  </div> -->
+  <section class="who">
+    <div class="container">
+      <div class="row">
+        <div class="who1">
+          <div class="col-12 col-sm-12 col-md-6 co-lg-6 col-xg-6">
+            <h3>Who are Kagglers?</h3>
+            <p>Kagglers come from all walks of life: students, seasoned <br> professionals, and distinguished
+              researchers. They use Kaggle <br>to learn data science & ML, stay up-to-date on the latest <br>
+              techniques, and collaborate.</p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 co-lg-6 col-xg-6">
+            <img src="https://www.kaggle.com/static/images/home/logged-out/community-faces-desktop@2x.png" width="120%"
+              alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section -->
+  <section class="info-section">
+    <div class="info-card">
+      <h2>A global community</h2>
+      <p>Over 23 million users from over 190 countries are here.</p>
+      <div class="country-codes">
+        <strong>AR</strong> <strong>CL</strong> <strong>LK</strong> <strong>PL</strong> <strong>PK</strong><br />
+        <strong>NL</strong> <strong>CO</strong> <strong>GB</strong> <strong>TR</strong> <strong>PE</strong>
+      </div>
+    </div>
+    </div>
+
+    <div class="info-card">
+      <h2>A place to discuss ML</h2>
+      <p>Whether you're a beginner or pro, find answers to your ML questions & connect with ML enthusiasts on Kaggle's
+        forums.</p>
+      <div class="tags">
+        <span>Data Visualization</span>
+        <span>Neural Networks</span>
+        <span>Computer Vision</span>
+        <span>NLP</span>
+      </div>
+      <a href="#" class="see-all">→ See All</a>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="logo-section">
+        <h1 class="logo">kaggle</h1>
+        <div class="social-icons">
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="column">
+          <h3>Product</h3>
+          <a href="#">Competitions</a>
+          <a href="#">Datasets</a>
+          <a href="#">Models</a>
+          <a href="#">Notebooks</a>
+          <a href="#">Learn</a>
+          <a href="#">Discussions</a>
+        </div>
+        <div class="column">
+          <h3>Documentation</h3>
+          <a href="#">Competitions</a>
+          <a href="#">Datasets</a>
+          <a href="#">Models</a>
+          <a href="#">Notebooks</a>
+          <a href="#">Public API</a>
+        </div>
+        <div class="column">
+          <h3>Company</h3>
+          <a href="#">Our Team</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Host a Competition</a>
+          <div class="footer-policy">
+            <a href="#">Terms</a><span> · </span><a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

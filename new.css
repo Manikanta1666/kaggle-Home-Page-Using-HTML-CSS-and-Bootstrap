@@ -1,8 +1,0 @@
-.Key {
-  display: flex;
-  flex-direction: column;
-  gap: 20px; /* space between items */
-  flex-wrap: wrap; /* allows wrapping to next line if needed */
-  justify-content: center; /* horizontal alignment */
-  align-items: center; /* vertical alignment */
-}
